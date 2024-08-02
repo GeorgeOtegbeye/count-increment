@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Count Increment</title>
-    <link rel="icon" type="image/jpg" href="busstation.jpg">
+    <link rel="icon" type="image/png" href="bus-station.png"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>People entered:</h1>
+    <h2 id="count-el">0</h2>
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <button id="double-btn" onclick="double()">DOUBLE</button>
+    <button id="triple-btn" onclick="triple()">TRIPLE</button>
+    <button id="reset-btn" onclick="reset()">RESET</button>
+    <p id="save-el">Previous entries: </p>
+    <script src="index.js"></script>
+  </body>
 </html>
