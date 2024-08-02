@@ -5,11 +5,7 @@
 }
 
 body {
-  background-image: url(bus-station.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-color: grey;
   text-align: center;
   font-weight: bold;
 }
